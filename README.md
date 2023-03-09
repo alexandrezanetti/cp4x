@@ -20,13 +20,6 @@ git clone https://github.com/alexandrezanetti/cp4i.git
 
 #### 3. Execute as linhas abaixo para instalar toda a lista de produtos do CP4I  / Run lines below to install all CP4I products
 Obtenha o channel version [aqui](https://www.ibm.com/docs/en/cloud-paks/cp-integration/2022.4?topic=reference-operator-channel-versions-this-release)
-- IBM CP4i Platform Navigator (com IBM Foundational Services)
-- Aspera HSTS
-- IBM Api Connect (APIC)
-- IBM App Connect (ACE)
-- IBM Event Stream 
-- IBM MQ
-
 ```
 echo "###Operadores de Todos Cloud Paks CP4x#########################"
 echo "##### IBM CP4BA ####"; export PROJECT=cp4ba ; export CHANNEL=v22.2 ; export OPERATOR=ibm-cp4a-operator ; export PROJECTSUB=openshift-operators ; chmod a+x /root/cp4i/product-operator-sub/zzzOperator.sh ; /root/cp4i/product-operator-sub/./zzzOperator.sh
