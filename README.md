@@ -15,7 +15,7 @@ We have used this link to help us:
 dnf install -y git
 ```
 ```
-git clone https://github.com/alexandrezanetti/cp4i.git
+git clone https://github.com/alexandrezanetti/cp4x.git
 ```
 
 #### 3. Execute as linhas abaixo para instalar toda a lista de produtos do CP4I  / Run lines below to install all CP4I products
